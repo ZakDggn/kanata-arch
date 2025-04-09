@@ -1,0 +1,12 @@
+[Unit]
+Description=Kanata keyboard config
+
+[Service]
+User=kanata
+Restart=no
+ExecStart=/usr/bin/kanata --quiet --cfg %E/kanata/%i.kbd
+Nice=-20
+
+[Install]
+DefaultInstance=config
+WantedBy=default.target

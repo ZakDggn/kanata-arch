@@ -1,0 +1,5 @@
+[kanata]
+source = "github"
+github = "jtroo/kanata"
+use_latest_release = true
+prefix = "v"

@@ -1,0 +1,20 @@
+pkgbase = kanata
+	pkgdesc = Improve keyboard comfort and usability with advanced customization
+	pkgver = 1.8.1
+	pkgrel = 1
+	url = https://github.com/jtroo/kanata
+	arch = x86_64
+	license = LGPL-3.0-only
+	makedepends = cargo
+	depends = gcc-libs
+	depends = glibc
+	source = kanata@.service
+	source = kanata.sysusers
+	source = 99-kanata.rules
+	source = kanata-1.8.1.tar.gz::https://github.com/jtroo/kanata/archive/refs/tags/v1.8.1.tar.gz
+	b2sums = 4bb789433699d6a6e3dc6e39cbba29757fe67b487d45eee0b74074c9fe21bf01fef2cc5464d0276e6068f36fcefc66a4e8359ffa6273b255f7e62ae2254052d8
+	b2sums = a38f3fb563af897bc14212f30a97dd791578e329b53061a0c845bebc73989b14e27a5882011cf8ed2f50504976859035479e1792b8f5c641dae9b0de5caf5813
+	b2sums = 1f71a937a3afcab75e0a37b180fa765f18e572a505d4997f004af9b6b64712983290a04e51a12400bc20b07c8aceafb039da7f9e85e5e9174579d676a703db00
+	b2sums = 58d20242e88598eb49e3efcd317cb9087ff3186fd78cd51f37fcadf118e84f70dcb84bf1273df724114184f21015974b9690182331ae24d2962ad40487f2ee63
+
+pkgname = kanata
