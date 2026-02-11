@@ -1,6 +1,6 @@
 pkgbase = kanata
 	pkgdesc = Improve keyboard comfort and usability with advanced customization
-	pkgver = 1.9.0
+	pkgver = 1.11.0
 	pkgrel = 1
 	url = https://github.com/jtroo/kanata
 	arch = x86_64
@@ -11,10 +11,10 @@ pkgbase = kanata
 	source = kanata@.service
 	source = kanata.sysusers
 	source = 99-kanata.rules
-	source = kanata-1.9.0.tar.gz::https://github.com/jtroo/kanata/archive/refs/tags/v1.9.0.tar.gz
+	source = kanata-1.11.0.tar.gz::https://github.com/jtroo/kanata/archive/refs/tags/v1.11.0.tar.gz
 	b2sums = 4bb789433699d6a6e3dc6e39cbba29757fe67b487d45eee0b74074c9fe21bf01fef2cc5464d0276e6068f36fcefc66a4e8359ffa6273b255f7e62ae2254052d8
 	b2sums = a38f3fb563af897bc14212f30a97dd791578e329b53061a0c845bebc73989b14e27a5882011cf8ed2f50504976859035479e1792b8f5c641dae9b0de5caf5813
 	b2sums = 1f71a937a3afcab75e0a37b180fa765f18e572a505d4997f004af9b6b64712983290a04e51a12400bc20b07c8aceafb039da7f9e85e5e9174579d676a703db00
-	b2sums = d0896e7b8d22ecd4030f1905bf862b0d832cc45aac40bc314e8b94cfd3d32e73c25c24150e76f54c5f41887cf1c0b60bc1ab7493ad133476c361729a692e8f1b
+	b2sums = 42102cc8c150420c5e263da95d01191d35459cd3ed02856cb711322eeaaf6c92e7da690eeb3006fbc4cb69c63044a6fb9eccb80fbc4a09b6bd01c0170fc49213
 
 pkgname = kanata
