@@ -5,7 +5,7 @@ pkgdesc="Improve keyboard comfort and usability with advanced customization"
 arch=('x86_64')
 url="https://github.com/jtroo/kanata"
 license=('LGPL-3.0-only')
-depends=(gcc-libs glibc)
+depends=()
 makedepends=(cargo)
 source=(
     kanata@.service
